@@ -1,0 +1,16 @@
+{
+  "name": "step-01",
+  "version": "1.0.0",
+  "devDependencies": {
+    "css-loader": "^2.1.1",
+    "html-webpack-plugin": "^3.2.0",
+    "http-server": "^0.11.1",
+    "style-loader": "^0.23.1",
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.3.0"
+  },
+  "scripts": {
+    "build": "webpack --config webpack.config.js --mode development --progress",
+    "serve": "http-server dist"
+  }
+}
