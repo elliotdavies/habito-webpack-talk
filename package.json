@@ -1,6 +1,10 @@
 {
   "private": true,
   "workspaces": [
-    "step-01"
+    "step-01",
+    "step-02",
+    "step-03",
+    "step-04",
+    "step-05"
   ]
 }
