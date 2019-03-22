@@ -19,8 +19,8 @@
     "webpack-dev-server": "^3.2.1"
   },
   "scripts": {
-    "build": "webpack --config webpack.config.prod.js --mode production --progress",
-    "watch": "webpack-dev-server --config webpack.config.dev.js",
+    "build": "webpack --config webpack.config.js --mode production --progress",
+    "watch": "webpack-dev-server --config webpack.config.js",
     "serve": "http-server dist"
   }
 }

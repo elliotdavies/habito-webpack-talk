@@ -1,3 +1,6 @@
+// In reality you would probably specify two Webpack configurations, one
+// for prod and one for dev, but for this demo we can use the same one
+
 const path = require("path");
 const HtmlWebpackPlugin = require("html-webpack-plugin");
 const CleanWebpackPlugin = require("clean-webpack-plugin");
