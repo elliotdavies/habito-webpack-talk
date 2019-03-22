@@ -23,7 +23,10 @@ module.exports = {
       },
       {
         test: /\.png$/,
-        use: "file-loader"
+        use: [
+          "file-loader",
+          'image-webpack-loader',
+        ]
       },
       {
         test: /\.purs$/,
