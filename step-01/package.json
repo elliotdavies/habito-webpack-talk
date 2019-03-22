@@ -1,0 +1,11 @@
+{
+  "name": "step-01",
+  "version": "1.0.0",
+  "devDependencies": {
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.3.0"
+  },
+  "scripts": {
+    "build": "webpack --config webpack.config.js --mode development --progress"
+  }
+}
