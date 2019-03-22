@@ -1,5 +1,7 @@
 const path = require("path");
 const HtmlWebpackPlugin = require("html-webpack-plugin");
+
+// v-- Import the new plugin...
 const CleanWebpackPlugin = require("clean-webpack-plugin");
 
 module.exports = {
@@ -40,7 +42,7 @@ module.exports = {
   },
 
   plugins: [
-    new CleanWebpackPlugin(),
+    new CleanWebpackPlugin(), // <-- ... and initialise it here
 
     new HtmlWebpackPlugin()
   ]

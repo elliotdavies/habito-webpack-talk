@@ -1,3 +1,4 @@
+-- This is now in PureScript instead of JavaScript
 module Main where
 
 import Prelude (pure)

@@ -1,3 +1,4 @@
+// v-- Require in the plugin...
 const HtmlWebpackPlugin = require("html-webpack-plugin");
 
 module.exports = {
@@ -8,6 +9,6 @@ module.exports = {
   },
 
   plugins: [
-    new HtmlWebpackPlugin(),
+    new HtmlWebpackPlugin(), // <-- ... and initialise it
   ]
 };

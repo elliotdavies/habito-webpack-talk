@@ -18,7 +18,7 @@ module.exports = {
         ]
       },
       {
-        test: /\.png$/,
+        test: /\.png$/, // <-- Tell Webpack to read .png files using the file-loader
         use: 'file-loader'
       }
     ]

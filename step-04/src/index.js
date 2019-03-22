@@ -1,5 +1,7 @@
 import runA from './A';
 import runB from './B';
+
+// v-- Reference main.scss
 import './main.scss';
 
 const body = document.querySelector('body');

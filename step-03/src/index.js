@@ -1,5 +1,7 @@
 import runA from './A';
 import runB from './B';
+
+// v-- Now we can write this
 import './main.css';
 
 const body = document.querySelector('body');

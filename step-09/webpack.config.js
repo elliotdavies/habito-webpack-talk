@@ -1,6 +1,8 @@
 const path = require("path");
 const HtmlWebpackPlugin = require("html-webpack-plugin");
 const CleanWebpackPlugin = require("clean-webpack-plugin");
+
+// v-- Import the new plugin
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 
 module.exports = {
@@ -16,7 +18,7 @@ module.exports = {
       {
         test: /\.scss$/,
         use: [
-          MiniCssExtractPlugin.loader,
+          MiniCssExtractPlugin.loader, // <-- This plugin also exports a loader that we need to use
           "css-loader",
           "sass-loader"
         ]
@@ -49,6 +51,7 @@ module.exports = {
 
     new HtmlWebpackPlugin(),
 
+    // v-- Initialise the plugin and tell it how to name the files it outputs
     new MiniCssExtractPlugin({
       filename: '[name].[contenthash].css'
     }),

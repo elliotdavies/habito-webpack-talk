@@ -14,7 +14,7 @@ module.exports = {
         use: [
           'style-loader',
           'css-loader',
-          'sass-loader',
+          'sass-loader', // <-- Enable Webpack to read SASS files
         ]
       }
     ]

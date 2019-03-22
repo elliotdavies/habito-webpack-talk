@@ -5,6 +5,8 @@ module.exports = {
   entry: "./src/index.js",
 
   output: {
+    // v-- By changing these Webpack options we can hash the output
+    // filenames - no other work required!
     filename: '[name].[contenthash].js',
     path: __dirname + "/dist"
   },
